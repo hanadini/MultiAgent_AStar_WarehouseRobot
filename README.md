@@ -107,3 +107,8 @@ Robot.hpp The Robots (the colored circles) are objects of type Robot (class), ea
 Planner.hpp The multiAgentPlanner is an object of type planner (class). It needs a robot instance, task and pointer to the Map to plan a path for the robot.
 GenericQueue.hpp The robots in the demo are circulating between the planning thread and the executing thread until all tasks in the queue are fulfilled. The planning thread blocks until a robot is available in the queue of the available robots, this queue is of type GenericQueue.
  Graphics.hpp/Graphics.cpp The viewer is an object of type Graphics (class). This viewer owns a shared pointer to the map and to all the instances of Robot Class. The viewer runs in parallel in the simulation thread.
+ 
+### Remarks
+The algorthim is a simplified version of the multi-label A* algorithm mentioned in [2]
+The code is designed to be extensible, that is why the task object is defined as std::pair, because ideally, the robot should first navigate to a Pickup cell and then to a delivery cell or vice versa. However, I kept this feature outside the scope of this Capstone project.
+It is possible that the planner fails to find a path for a certain robot-task pair, in this case, the task will be picked up by the next robot in the availableRobots queue.
