@@ -5,7 +5,7 @@ A C++ implantation for Multi-Agent A* Algorithm for Multi Agent Path planning.
 </p>
 
 # Overview
-This is the capstone project for the [Udacity C++ Nanodegree Program](https://www.udacity.com/course/c-plus-plus-nanodegree--nd213). In this project, I implemented a multi-agent A* path planner and an example application of the algorithm in an order fulfillment center. The puzzle is as follows;
+ In this project, I implemented a multi-agent A* path planner and an example application of the algorithm in an order fulfillment center. The puzzle is as follows;
 * In a warehouse, A fleet of robots has to fulfill a pool of tasks, the problem is solved when all tasks are fulfilled. 
 * The robots should not collide with each other nor should they collide with an obstacle in the warehouse while navigating to their task.
 According to [1] "A collision occurs if two agents occupy the same location at
