@@ -1,11 +1,16 @@
 # MultiAgent_AStar_WarehouseRobot
-A simulation framework for multi-agent path planning using the A* algorithm, designed for warehouse robot navigation. This project demonstrates how autonomous robots efficiently navigate in a shared workspace, avoiding collisions and optimizing routes.
+A simulation framework for multi-agent path planning using the A* algorithm, designed for efficient warehouse robot navigation. The project demonstrates autonomous multi-agent collision avoidance and path optimization in a grid-based environment.
 
-Features:
+## Features:
   - Multi-agent path planning with A*.
   - Collision avoidance mechanisms.
   - Efficient grid-based warehouse simulation.
   - Customizable map and robot configurations.
+
+## Technologies Used:
+-  Programming Language: C++14
+-  Build System: CMake
+
 
 <p align="center">
   <img src="https://github.com/hanadini/MultiAgent_AStar_WarehouseRobot/blob/main/Assets/firstTestRuning.gif" />
